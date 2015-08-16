@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC1689C1A793BEA00895756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1689B1A793BEA00895756 /* Foundation.framework */; };
+		CCC1689E1A793BEA00895756 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1689D1A793BEA00895756 /* CoreGraphics.framework */; };
+		CCC168A01A793BEA00895756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1689F1A793BEA00895756 /* UIKit.framework */; };
+		CCC168A61A793BEA00895756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC168A41A793BEA00895756 /* InfoPlist.strings */; };
+		CCC168A81A793BEA00895756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC168A71A793BEA00895756 /* main.m */; };
+		CCC168AC1A793BEA00895756 /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC168AB1A793BEA00895756 /* QYAppDelegate.m */; };
+		CCC168AF1A793BEA00895756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC168AD1A793BEA00895756 /* Main.storyboard */; };
+		CCC168B21A793BEA00895756 /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC168B11A793BEA00895756 /* QYViewController.m */; };
+		CCC168B41A793BEA00895756 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC168B31A793BEA00895756 /* Images.xcassets */; };
+		CCC168BB1A793BEA00895756 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC168BA1A793BEA00895756 /* XCTest.framework */; };
+		CCC168BC1A793BEA00895756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1689B1A793BEA00895756 /* Foundation.framework */; };
+		CCC168BD1A793BEA00895756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1689F1A793BEA00895756 /* UIKit.framework */; };
+		CCC168C51A793BEA00895756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC168C31A793BEA00895756 /* InfoPlist.strings */; };
+		CCC168C71A793BEA00895756 /* HourglassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC168C61A793BEA00895756 /* HourglassDemoTests.m */; };
+		CCC168D21A793C0300895756 /* JWHourglassView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC168D11A793C0300895756 /* JWHourglassView.m */; };
+		CCC168D51A793CA200895756 /* running_timer_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC168D31A793CA200895756 /* running_timer_bg.png */; };
+		CCC168D61A793CA200895756 /* running_timer_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC168D41A793CA200895756 /* running_timer_bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC168BE1A793BEA00895756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC168901A793BEA00895756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC168971A793BEA00895756;
+			remoteInfo = HourglassDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC168981A793BEA00895756 /* HourglassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourglassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC1689B1A793BEA00895756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCC1689D1A793BEA00895756 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCC1689F1A793BEA00895756 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCC168A31A793BEA00895756 /* HourglassDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HourglassDemo-Info.plist"; sourceTree = "<group>"; };
+		CCC168A51A793BEA00895756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCC168A71A793BEA00895756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC168A91A793BEA00895756 /* HourglassDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HourglassDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CCC168AA1A793BEA00895756 /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CCC168AB1A793BEA00895756 /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CCC168AE1A793BEA00895756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC168B01A793BEA00895756 /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
+		CCC168B11A793BEA00895756 /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CCC168B31A793BEA00895756 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCC168B91A793BEA00895756 /* HourglassDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HourglassDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC168BA1A793BEA00895756 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCC168C21A793BEA00895756 /* HourglassDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HourglassDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CCC168C41A793BEA00895756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCC168C61A793BEA00895756 /* HourglassDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HourglassDemoTests.m; sourceTree = "<group>"; };
+		CCC168D01A793C0300895756 /* JWHourglassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWHourglassView.h; sourceTree = "<group>"; };
+		CCC168D11A793C0300895756 /* JWHourglassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWHourglassView.m; sourceTree = "<group>"; };
+		CCC168D31A793CA200895756 /* running_timer_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = running_timer_bg.png; sourceTree = "<group>"; };
+		CCC168D41A793CA200895756 /* running_timer_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "running_timer_bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC168951A793BEA00895756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC1689E1A793BEA00895756 /* CoreGraphics.framework in Frameworks */,
+				CCC168A01A793BEA00895756 /* UIKit.framework in Frameworks */,
+				CCC1689C1A793BEA00895756 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC168B61A793BEA00895756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC168BB1A793BEA00895756 /* XCTest.framework in Frameworks */,
+				CCC168BD1A793BEA00895756 /* UIKit.framework in Frameworks */,
+				CCC168BC1A793BEA00895756 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC1688F1A793BEA00895756 = {
+			isa = PBXGroup;
+			children = (
+				CCC168A11A793BEA00895756 /* HourglassDemo */,
+				CCC168C01A793BEA00895756 /* HourglassDemoTests */,
+				CCC1689A1A793BEA00895756 /* Frameworks */,
+				CCC168991A793BEA00895756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC168991A793BEA00895756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC168981A793BEA00895756 /* HourglassDemo.app */,
+				CCC168B91A793BEA00895756 /* HourglassDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC1689A1A793BEA00895756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC1689B1A793BEA00895756 /* Foundation.framework */,
+				CCC1689D1A793BEA00895756 /* CoreGraphics.framework */,
+				CCC1689F1A793BEA00895756 /* UIKit.framework */,
+				CCC168BA1A793BEA00895756 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCC168A11A793BEA00895756 /* HourglassDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCC168D01A793C0300895756 /* JWHourglassView.h */,
+				CCC168D11A793C0300895756 /* JWHourglassView.m */,
+				CCC168AA1A793BEA00895756 /* QYAppDelegate.h */,
+				CCC168AB1A793BEA00895756 /* QYAppDelegate.m */,
+				CCC168AD1A793BEA00895756 /* Main.storyboard */,
+				CCC168B01A793BEA00895756 /* QYViewController.h */,
+				CCC168B11A793BEA00895756 /* QYViewController.m */,
+				CCC168B31A793BEA00895756 /* Images.xcassets */,
+				CCC168A21A793BEA00895756 /* Supporting Files */,
+			);
+			path = HourglassDemo;
+			sourceTree = "<group>";
+		};
+		CCC168A21A793BEA00895756 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC168D31A793CA200895756 /* running_timer_bg.png */,
+				CCC168D41A793CA200895756 /* running_timer_bg@2x.png */,
+				CCC168A31A793BEA00895756 /* HourglassDemo-Info.plist */,
+				CCC168A41A793BEA00895756 /* InfoPlist.strings */,
+				CCC168A71A793BEA00895756 /* main.m */,
+				CCC168A91A793BEA00895756 /* HourglassDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCC168C01A793BEA00895756 /* HourglassDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC168C61A793BEA00895756 /* HourglassDemoTests.m */,
+				CCC168C11A793BEA00895756 /* Supporting Files */,
+			);
+			path = HourglassDemoTests;
+			sourceTree = "<group>";
+		};
+		CCC168C11A793BEA00895756 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC168C21A793BEA00895756 /* HourglassDemoTests-Info.plist */,
+				CCC168C31A793BEA00895756 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC168971A793BEA00895756 /* HourglassDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC168CA1A793BEA00895756 /* Build configuration list for PBXNativeTarget "HourglassDemo" */;
+			buildPhases = (
+				CCC168941A793BEA00895756 /* Sources */,
+				CCC168951A793BEA00895756 /* Frameworks */,
+				CCC168961A793BEA00895756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HourglassDemo;
+			productName = HourglassDemo;
+			productReference = CCC168981A793BEA00895756 /* HourglassDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC168B81A793BEA00895756 /* HourglassDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC168CD1A793BEA00895756 /* Build configuration list for PBXNativeTarget "HourglassDemoTests" */;
+			buildPhases = (
+				CCC168B51A793BEA00895756 /* Sources */,
+				CCC168B61A793BEA00895756 /* Frameworks */,
+				CCC168B71A793BEA00895756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC168BF1A793BEA00895756 /* PBXTargetDependency */,
+			);
+			name = HourglassDemoTests;
+			productName = HourglassDemoTests;
+			productReference = CCC168B91A793BEA00895756 /* HourglassDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC168901A793BEA00895756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = weiji.info;
+				TargetAttributes = {
+					CCC168B81A793BEA00895756 = {
+						TestTargetID = CCC168971A793BEA00895756;
+					};
+				};
+			};
+			buildConfigurationList = CCC168931A793BEA00895756 /* Build configuration list for PBXProject "HourglassDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC1688F1A793BEA00895756;
+			productRefGroup = CCC168991A793BEA00895756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC168971A793BEA00895756 /* HourglassDemo */,
+				CCC168B81A793BEA00895756 /* HourglassDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC168961A793BEA00895756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC168D51A793CA200895756 /* running_timer_bg.png in Resources */,
+				CCC168D61A793CA200895756 /* running_timer_bg@2x.png in Resources */,
+				CCC168B41A793BEA00895756 /* Images.xcassets in Resources */,
+				CCC168A61A793BEA00895756 /* InfoPlist.strings in Resources */,
+				CCC168AF1A793BEA00895756 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC168B71A793BEA00895756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC168C51A793BEA00895756 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC168941A793BEA00895756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC168D21A793C0300895756 /* JWHourglassView.m in Sources */,
+				CCC168AC1A793BEA00895756 /* QYAppDelegate.m in Sources */,
+				CCC168A81A793BEA00895756 /* main.m in Sources */,
+				CCC168B21A793BEA00895756 /* QYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC168B51A793BEA00895756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC168C71A793BEA00895756 /* HourglassDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC168BF1A793BEA00895756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC168971A793BEA00895756 /* HourglassDemo */;
+			targetProxy = CCC168BE1A793BEA00895756 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCC168A41A793BEA00895756 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC168A51A793BEA00895756 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCC168AD1A793BEA00895756 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC168AE1A793BEA00895756 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC168C31A793BEA00895756 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC168C41A793BEA00895756 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC168C81A793BEA00895756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCC168C91A793BEA00895756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC168CB1A793BEA00895756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HourglassDemo/HourglassDemo-Prefix.pch";
+				INFOPLIST_FILE = "HourglassDemo/HourglassDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCC168CC1A793BEA00895756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HourglassDemo/HourglassDemo-Prefix.pch";
+				INFOPLIST_FILE = "HourglassDemo/HourglassDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCC168CE1A793BEA00895756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HourglassDemo.app/HourglassDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HourglassDemo/HourglassDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HourglassDemoTests/HourglassDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCC168CF1A793BEA00895756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HourglassDemo.app/HourglassDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HourglassDemo/HourglassDemo-Prefix.pch";
+				INFOPLIST_FILE = "HourglassDemoTests/HourglassDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC168931A793BEA00895756 /* Build configuration list for PBXProject "HourglassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC168C81A793BEA00895756 /* Debug */,
+				CCC168C91A793BEA00895756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC168CA1A793BEA00895756 /* Build configuration list for PBXNativeTarget "HourglassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC168CB1A793BEA00895756 /* Debug */,
+				CCC168CC1A793BEA00895756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCC168CD1A793BEA00895756 /* Build configuration list for PBXNativeTarget "HourglassDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC168CE1A793BEA00895756 /* Debug */,
+				CCC168CF1A793BEA00895756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC168901A793BEA00895756 /* Project object */;
+}
